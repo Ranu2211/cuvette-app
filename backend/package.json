@@ -1,0 +1,28 @@
+{
+  "name": "auth-backend",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "nodemon",
+    "build": "tsc",
+    "serve": "node dist/index.js",
+    "generate-bills": "ts-node scripts/generate-bills.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.21.1",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^9.0.2",
+    "prisma": "^5.21.1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/node": "^16.11.6",
+    "nodemon": "^2.0.14",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  }
+}
