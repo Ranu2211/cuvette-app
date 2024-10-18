@@ -1,0 +1,31 @@
+/* src/styles/MainLayout.css */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.content {
+    /* position: fixed; */
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 100px 50px;
+}
+
+.text-section {
+    width: 50%;
+    font-size: 18px;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.form-section {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
