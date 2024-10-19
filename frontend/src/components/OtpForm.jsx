@@ -19,7 +19,7 @@ const OtpForm = () => {
     // Logic for verifying mobile OTP would go here
     setMobileVerified(true);
     setTimeout(() => {
-        navigate(/Home);
+        navigate("/home");
     },2000)
   };
   return (
